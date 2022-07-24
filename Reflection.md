@@ -60,13 +60,15 @@
 5. The Choose Your Own Adventure I fulfilled was the “User can delete a recipe”. The button "I don't like this dish" is located on the top left corner of the right box. When clicked, the data model is updated by removing the current dish shown from its respective array. The button will change to red and the text will inform the user the dish was removed. With the inclusion of the entire meal's functionality, the user cannot choose to remove the Entire Meal output.
 
 ## Deployed Page
-Visit our published What's For Dinner Site [here]()
+Visit our published What's For Dinner Site [here](https://ohclaire.github.io/whats-for-dinner/)
 
 ## Possible Future Extensions
+  - Some of my functions are lengthy and need to be refactored for DRY and Single-Responsibility. Given more time, I would like to refactor showACourseDish and create a function for adding/removing the hidden class.
   - Having the "Add A Recipe" functionality would be nice to have so each array could be updated and expanded. 
   - Having a local storage would have gone well with my CYOA so that the dishes that were deleted would remain gone after reload. 
   - If I had chosen the "User can favorite a recipe" CYOA, I would have liked to build local storage that would save dishes that were favorited and design bookmarks to appear on the side of the page for the user to view these dishes even after a page reloads.
   - Building in transitions via CSS would make the page more interesting and have other features on the page for the user to interact with.
+
 
 ## Set Up
 1. Fork this repo

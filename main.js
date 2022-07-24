@@ -151,7 +151,10 @@ function showACourseDish(event) {
     displayDishResult(currentDish);
 
     removeDishButton.classList.remove('hidden');
-  }   else if (chooseDishType.value === "Entire-Meal") {
+  }   
+  else if (chooseDishType.value === "Entire-Meal") {
+    removeDishButton.classList.add('hidden');
+
     dishName.innerText = randomEntireMeal();
   }
   clearButton.classList.remove('hidden');
@@ -180,10 +183,6 @@ function removeFromArray(array) {
       removedDish = array.splice(i, 1);
     }
   }
-
-  console.log(removedDish)
-  console.log(array.length)
-  console.log(array)
   return removedDish;
 }
 
@@ -196,7 +195,6 @@ function confirmDishRemoved(dish) {
 
   dishName.innerText = dish.name;
 
-  console.log(dish.name)
   return dish.name;
 }
 
